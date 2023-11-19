@@ -1,9 +1,10 @@
 html {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
  body {
-   background-color: rgb(241, 242, 245);
+   background-color: rgb(45, 48, 49);
  }
 
  .Landing {
@@ -19,6 +20,14 @@ html {
   background: linear-gradient(to right, rgb(0,43,54), rgb(0, 18, 48));
   color: white;
   padding-top: 5px;
+}
+
+a {
+  display: flex;
+  color: white;
+  list-style: none;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .container {
@@ -126,6 +135,7 @@ html {
 .social-icons {
   width: 100%;
   height: 100%;
+  color: white;
 }
 .social-icons ul {
   display: flex;
@@ -152,15 +162,15 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 101vh;
+  height: 100vh;
   width: 100%;
-  background-color: rgb(0,43,54);
+  background: linear-gradient(to bottom, rgb(0,43,54), rgb(0, 18, 48));
   color: white;
 }
 
-.skills_section p {
-  font-size: 22px;
-  font-weight: 800;
+h1 {
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .hard_skills {
@@ -182,13 +192,6 @@ html {
   padding-bottom: 40px;
 }
 
-
-
-
-
-
-
-
 .experience_section {
   display: flex;
   justify-content: center;
@@ -196,17 +199,20 @@ html {
   flex-direction: column;
   width: 100%;
   height: auto;
+  padding-bottom: 34px;
+  color: white;
 }
 
 .job {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 90%;
+  width: 60%;
+  min-width: 600px;
   padding-left: 24px;
   margin-right: 12px;
   padding-bottom: 12px;
-  margin-top: 12px;
+  margin-block: 36px;
 }
 
 .job_description {
@@ -214,12 +220,15 @@ html {
   flex-direction: column;
   padding: 0px;
   margin: 0px;
-  line-height: 2px;
+  line-height: 1px;
   max-width: 75%;
 }
 
+.job_description h2 {
+  text-decoration: underline;
+}
 .job_description p {
-  line-height: normal;
+  line-height: 24px;
 }
 
 .skills_learned {
@@ -227,9 +236,16 @@ html {
 }
 
 .skills_learned ul {
-  text-decoration: underline;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  line-height: auto;
+  font-weight: bold;
 }
 
+#contact {
+  background-color: rgb(45, 48, 49);
+}
 
 footer {
   height:100vh;
