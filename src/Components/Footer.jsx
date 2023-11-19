@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.sass";
+import "./Footer.css";
 
 import github from "../OctoZombie.png";
 import linkedin from "../LinkedIn.png";

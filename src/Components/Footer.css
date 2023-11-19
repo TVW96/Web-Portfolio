@@ -1,0 +1,73 @@
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding-top: 14px;
+}
+footer .footer-top {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12px;
+  margin-block: 22px;
+}
+footer .footer-top .footer-title {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #060619;
+  border-radius: 10px;
+}
+footer .footer-middle {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .footer-middle b {
+  text-align: start;
+  padding-left: 10px;
+}
+footer .footer-middle ul {
+  text-align: start;
+  list-style-type: none;
+  line-height: 26px;
+  padding-left: 12px;
+}
+footer .footer-middle .footer-section1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+}
+footer .footer-middle .footer-section1 b {
+  letter-spacing: 5px;
+  font-size: 24px;
+  text-align: center;
+  font-family: "BungeeInline";
+}
+@font-face {
+  font-family: "BungeeInline";
+  src: url("./BungeeInline-Regular.woff");
+}
+footer .footer-middle .footer-section1 ul {
+  text-align: center;
+}
+footer .footer-middle .footer-section2 {
+  width: 20%;
+}
+footer .footer-middle .footer-section3 {
+  width: 20%;
+}
+footer .footer-middle .footer-section4 {
+  width: 20%;
+}
+footer .footer-bottom {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Footer.css.map */
