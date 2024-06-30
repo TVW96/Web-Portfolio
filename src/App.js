@@ -4,12 +4,10 @@ import Hero from "./Components/Hero";
 import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import Footer from "./Components/Footer";
-
 import github from "./OctoZombie.png";
 import linkedin from "./LinkedIn.png";
 import instagram from "./Instagram.png";
 import stackoverflow from "./StackOverflow.png";
-
 import { BrowserRouter, Link } from "react-router-dom";
 
 function App() {
@@ -72,7 +70,7 @@ function App() {
 				</section>
 			</div>
 		</BrowserRouter>
-	);
+	)
 }
 
 export default App;

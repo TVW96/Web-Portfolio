@@ -12,7 +12,6 @@ function Nav() {
 					<ul>
 						<img src={Logo} alt="logo" className="Logo" />
 					</ul>
-					<Link to="#About">About</Link>
 					<Link to="#Skills">Skills</Link>
 					<Link to="#Experience">Experience</Link>
 				</div>
