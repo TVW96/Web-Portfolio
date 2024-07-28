@@ -1,7 +1,8 @@
 import React from "react";
-import Logo from "../code.png";
+import Logo from "../../images/code.png";
 import { Link } from "react-router-dom";
-import ScrollToHashElement from "../Utils/ScrollToHashElement";
+import ScrollToHashElement from "../../Utils/ScrollToHashElement";
+import "./Nav.scss";
 
 function Nav() {
 	return (

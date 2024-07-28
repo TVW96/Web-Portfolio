@@ -1,0 +1,48 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to right, rgb(0,43,54), rgb(0, 18, 48));
+  color: white;
+  padding-top: 5px;
+}
+a {
+  display: flex;
+  color: white;
+  list-style: none;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  border-bottom: solid 2px silver;
+}
+.section_one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+.section_two {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 20px;
+}
+.navigation ul {
+  color: white;
+  display: flex;
+}
+.Logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}

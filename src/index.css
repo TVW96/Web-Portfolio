@@ -13,16 +13,19 @@ code {
 }
 
 ::-webkit-scrollbar{
-  width: 8px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track{
-  background: rgb(0, 18, 48);
+  background: rgb(190, 189, 223);
 }
 ::-webkit-scrollbar{
-  background: white;
+  background: black;
   border-radius: 4px;
 }
-
+::-webkit-scrollbar-thumb{
+  background: black;
+  border-radius: 5px;
+}
 ::-webkit-scrollbar-thumb:hover{
   background: rgb(0,43,54);
 }

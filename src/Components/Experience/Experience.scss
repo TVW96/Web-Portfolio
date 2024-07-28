@@ -1,0 +1,50 @@
+.experience_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-bottom: 34px;
+  color: white;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  min-width: 600px;
+  padding-left: 24px;
+  margin-right: 12px;
+  padding-bottom: 12px;
+  margin-block: 36px;
+}
+
+.job_description {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1px;
+  max-width: 75%;
+}
+
+.job_description h2 {
+  text-decoration: underline;
+}
+.job_description p {
+  line-height: 24px;
+}
+
+.skills_learned {
+  padding: 7px;
+}
+
+.skills_learned ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  line-height: auto;
+  font-weight: bold;
+}
