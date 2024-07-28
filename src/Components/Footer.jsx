@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
-import github from "../OctoZombie.png";
+import github from "../github.png";
 import linkedin from "../LinkedIn.png";
 import instagram from "../Instagram.png";
 import stackoverflow from "../StackOverflow.png";
