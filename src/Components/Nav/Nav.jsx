@@ -9,16 +9,18 @@ function Nav() {
 		<nav className="navigation">
 			<ScrollToHashElement />
 			<div className="container">
-				<div className="section_one">
-					<ul>
-						<img src={Logo} alt="logo" className="Logo" />
-					</ul>
-					<Link to="#Skills">Skills</Link>
-					<Link to="#Experience">Experience</Link>
-				</div>
-				<div className="section_two">
-					<Link to="#contact">contact</Link>
-				</div>
+				<div className="nav-conatiner">
+					<div className="section_one">
+						<ul className="nav-item">
+							<img src={Logo} alt="logo" className="Logo" />
+						</ul>
+						<Link to="#Skills" className="nav-item">Skills</Link>
+						<Link to="#Experience" className="nav-item">Experience</Link>
+					</div>
+					<div className="section_two">
+						<Link to="#contact" className="nav-item">contact</Link>
+					</div>
+        </div>
 			</div>
 		</nav>
 	);
