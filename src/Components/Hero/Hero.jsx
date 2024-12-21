@@ -5,17 +5,23 @@ function Hero() {
 	return (
 		<div className="hero_container">
 			<div className="Hero">
-				Skills & Frameworks
+				<h3 style={{ margin: "0px", padding: "0px" }}>Languages & Frameworks</h3>
 				<div className="hero_innerContainer">
 					<div className="scrolling-text-container">
 						<div className="scrolling-text">
-							<h2>ReactJS</h2>
+							<h3>ReactJS</h3>
 						</div>
 						<div className="scrolling-text">
-							<h2>Java</h2>
+							<h3>Java</h3>
 						</div>
 						<div className="scrolling-text">
-							<h2>Python</h2>
+							<h3>C#</h3>
+						</div>
+						<div className="scrolling-text">
+							<h3>Python</h3>
+						</div>
+						<div className="scrolling-text">
+							<h3>SQL</h3>
 						</div>
 					</div>
 				</div>

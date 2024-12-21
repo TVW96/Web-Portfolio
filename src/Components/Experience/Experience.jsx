@@ -7,6 +7,23 @@ function Experience() {
 			<h1>Resume Experience</h1>
 			<div className="job">
 				<div className="job_description">
+					<h2>WA TechTalent Boost, JumpStart CSR</h2>
+					<h3>UI/UX designer</h3>
+					<p>
+						I collaborated with a team of engineers to revamp the JumpStartCSR Holmz healthcare technology website, transitioning its focus from customer support to a sales-driven advertising platform. Using Figma, I designed detailed wireframes, mockups, and routing systems for new web pages and components, refining content to enhance user navigation and site traffic. As the product manager, I acted as the primary liaison between the CXO, product owner, and team, overseeing task assignments, maintaining communication, and delivering consistent project updates. By dedicating extra effort, I ensured the successful completion of all deliverables, resulting in a more customer-centric and impactful online presence for the company.
+					</p>
+				</div>
+				<div className="skills_learned">
+					<ul>UI/UX Design</ul>
+					<ul>Web Development</ul>
+					<ul>Website Architecture</ul>
+					<ul>Project Management</ul>
+					<ul>Figma</ul>
+				</div>
+			</div>
+
+			<div className="job">
+				<div className="job_description">
 					<h2>Alaska Airlines</h2>
 					<h3>Software Engineer</h3>
 					<p>

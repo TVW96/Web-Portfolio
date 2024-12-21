@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100%;
   height: 50px;
-  background: linear-gradient(to right, rgb(0,43,54), rgb(0, 18, 48));
+  background: linear-gradient(to right, rgb(0, 43, 54), rgb(0, 18, 48));
   color: white;
   padding-top: 5px;
 }
@@ -12,21 +12,24 @@
 a.nav-item {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the text within the bubble */
-  width: 150px; /* Fixed width for uniform size */
-  height: 40px; /* Fixed height for uniform size */
+  justify-content: center;
+  /* Center the text within the bubble */
+  width: 150px;
+  /* Fixed width for uniform size */
+  height: 40px;
+  /* Fixed height for uniform size */
   margin: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.068);
   border-radius: 50px;
   border: 1px solid #ddd;
   text-decoration: none;
-  color: black;
+  color: snow;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 a.nav-item:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f078;
 }
 
 a.nav-item:active {
